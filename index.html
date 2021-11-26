@@ -1,48 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caucasus Ханиева Милана</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="styles/texts/style.css">
+<link rel="stylesheet" href="styles/normalize.css">    
+<link rel="stylesheet" href="styles/style.css">
 </head>
-
 <body>
     Header --> (Logo --> Logo-Image) + (Menu --> Tours + Teaching + About + Reviews + Gallery + Contacts) + Call-Number
         <header>
             <div class="logo">
-                <img src="" alt="" class="logo-image">
-                <nav></nav>
-                <div class="menu"> 
-                    <div class="tours"></div>
-                    <div class="teaching"></div>
-                    <div class="about"></div>
-                    <div class="reviews"></div>
-                    <div class="gallery"></div>
-                    <div class="contacts"></div>
+                <img 
+                src="images/logo.svg"
+                width="62"
+                height="62"
+                alt="лого Caucasus" 
+                class="logo-image">
+                <div class="logo-title">
+                    <div>CAUCASUS</div>
                 </div>
-                <div class="call-number"></div>
+                <div class="logo-subtitle">Организация походов в горы</div>
+            </div>
+                <div class="menu"> 
+                    <ul class="menu">
+                        <li>Туры</li>
+                        <li>Обучение</li>
+                        <li>О нас</li>
+                        <li>Отзывы</li>
+                        <li>Фотографии</li>
+                        <li>Контакты</li>
+                    </ul>
+                </div>
+                <div class="call-number">8 800 725 32 32</div>
         </header>
+
+        <main>
     Banner --> (Headings --> Main-title + Sub-title + Select-Button) + Socials + Main-Image
     <section class="banner">
         <div class="headings">
-            <div class="main-title"></div>
-            <div class="sub-title"></div>
-            <button class="select-button"></button>
+            <div class="main-title">Походы в горы Кавказа</div>
+            <div class="sub-title">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
+            <button class="select-button">Выбрать экскурсию</button>
         </div>
-        <div class="socials"></div>
+        <div class="socials">
+                <ul class="socials-list"> 
+                    <li>
+                        <a href="www.vk.com">
+                            <svg>
+                                <use xlink:href="images/icons.svg#vk"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.facebook.com">
+                            <svg>
+                                <use xlink:href="images/icons.svg#fb"></use>
+                            </svg> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.instagram.com">
+                            <svg>
+                                <use xlink:href="images/icons.svg#insta"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+        </div>
         <img src="" alt="" class="main-image">
     </section>
     Tours --> (Headings --> Title + Back-Button + Next-Button) + (Elbrus-Tour --> 1-Image + Info) + (Table-Mountain-Tour --> 2-Image + Info) + (Fisht-Mountain-Tour --> 3-Image + Info)
     <section class="tours">
         <div class="headings">
-            <div class="title"></div>
-            <button class="back-button"></button>
+            <div class="title">Ближайшие туры</div>
+            <button class="back-button"> </button>
             <button class="next-button"></button>
         </div>
         <div class="elbrus-tour"> 
@@ -59,8 +95,8 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
     Teaching --> (Headings --> Title + Info) + (All-Instructors --> Title + Back-Button + Next-Button) + ( 1-Instructor --> Photo + Info) + (2-Instructor --> Photo + Info) + (3-Instructor --> Photo + Info) + (4-Instructor--> Photo + Info) + (Process --> Title + Description)
     <section class="teching">
         <div class="headings">
-            <div class="title"></div>
-            <div class="info"></div>
+            <div class="title">Обучение</div>
+            <div class="info">Обучение проводится квалифицированными специалистами, за плечами которых десятки пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
         </div>
         <div class="all-instructors"> 
             <div class="title"></div>
@@ -69,39 +105,71 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
         </div>
         <div class="1-instructor">
             <div class="photo"></div>
-            <div class="info"></div>
+            <div class="name">Александр Прокофьев</div>
+            <div class="info">Любит природу. Строгий, справедливый и внимательный инструктор, веселый и общительный человек.</div>
+            <div class="vk"></div>
         </div>
         <div class="2-instructor">
             <div class="photo"></div>
-            <div class="info"></div>
+            <div class="name">Светлана Афиногенова</div>
+            <div class="info">Видеть мир вокруг, познавать его опасности, смотреть сквозь стены, находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.</div>
+            <div class="vk"></div>
         </div>
         <div class="3-instructor">
             <div class="photo"></div>
-            <div class="info"></div>
+            <div class="name">Надежда Колесниченко</div>
+            <div class="info">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках с ней чувствуешь себя спокойно и уверенно. </div>
+            <div class="vk"></div>
         </div>
         <div class="4-instructor">
             <div class="photo"></div>
-            <div class="info"></div>
+            <div class="name">Федор Кайгородов</div>
+            <div class="info">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины, приэльбрусье, Архыз, много путешествует по Европе.</div>
+            <div class="vk"></div>
         </div>
         <div class="process">
-            <div class="title"></div>
-            <div class="description"></div>
+            <div class="title">Процесс обучения</div>
+            <div class="description">
+                <ul class="description">
+                    <li> <svg width="25" height="25"> 
+                        <use xlink:href="images/icons.svg#map"></use></svg> 
+                        Изучение спортивного туристского движения
+                    </li>
+                    <li> <svg width="24" height="22">
+                        <use xlink:href="images/icons.svg#skate"></use>
+                    </svg>
+                    Подготовка и техническое снаряжение в походах</li>
+                    <li> <svg width="23" height="23">
+                        <use xlink:href="images/icons.svg#tree"></use>
+                    </svg>
+                    Лекции по экологии, окружающей среде и гигиене</li>
+                    <li> <svg width="24" height="20">
+                        <use xlink:href="images/icons.svg#mount"></use>
+                    </svg>
+                    Разъяснение характера горных препядствий и их сложности
+                </li>
+                </ul>
+            </div>
         </div>
     </section>
-    About --> Mountain-Image + (Info --> 1-Title + 1-Description + 2-Title + 2-Description)
+    About --> Main-Title + Mountain-Image + (Info --> 1-Title + 1-Description + 2-Title + 2-Description)
     <section class="about">
+        <div class="main-title">О нас</div>
         <img src="" alt="" class="mountain-image">
         <div class="info">
-            <div class="1-title"></div>
-            <div class="1-description"></div>
-            <div class="2-title"></div>
-            <div class="2-description"></div>
+            <div class="1-title">История компании</div>
+            <div class="1-description">
+                В далеком 2000 году мы начали заниматься туризмом - походы, поездки, восхождения, нам это настолько понравилось, что мы этим стали жить. 
+                Спустя 5 лет, в 2005 году мы основали компанию, чтобы показывать людям удивительные места Северного Кавказа.</div>
+            <div class="2-title">Наша цель </div>
+            <div class="2-description">
+                Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется только наслаждаться незабываемым приключеним.</div>
         </div>
     </section>
     Reviews --> (Headings --> Title + Back-Button + Next-Button) + (1-Reviw --> Photo + Title + Sub-title + Text) + (2-Review --> Photo + Title + Sub-title + Text) + (3-Review --> Photo + Title + Sub-title + Text)
     <section class="reviews">
         <div class="headings">
-            <div class="title"></div>
+            <div class="title">Отзывы</div>
             <button class="back-button"></button>
             <button class="next-button"></button>
         </div>
@@ -127,8 +195,9 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
     Gallery --> (Headings --> Title + Sub-title + Back-Button + Next-Button) + Climber-Image + Bonfire-Image + Compass-Image + Hiking-Image + Winter-Image + Tent-Image + Men-Image
     <section class="gallery">
         <div class="headings">
-            <div class="title"></div>
-            <div class="sub-title"></div>
+            <div class="title">Фотогалерея</div>
+            <div class="sub-title">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
+            Лучшие фотографии украсят этот раздел нашего сайта.</div>
             <button class="back-button"></button>
             <button class="next-button"></button>
         </div>
@@ -140,32 +209,68 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
         <img src="" alt="" class="tent-image">
         <img src="" alt="" class="men-image">
     </section> 
-    Feedback --> Forrest-Image + (Form --> Title + Sub-title + 2 Inputs + Button) 
+    Feedback --> Forrest-Image + (Form --> Title + Sub-title + 2 Inputs + Send-Button) 
     <section class="feedback">
         <img src="" alt="" class="forrest-image">
         <form action="">
-            <div class="title"></div>
-            <div class="sub-title"></div>
-            <input type="text">
-            <input type="text">
-            <button></button>
+            <div class="title">Остались вопросы?</div>
+            <div class="sub-title">Заполните форму и наш оператор свяжется с вами для консультации.</div>
+            <input type="text">Как к вам обращаться?
+            <input type="text">Телефон
+            <button class="send-button">Отправить</button>
         </form>
     </section>
-    Footer --> (Logo --> Logo-Image) + (Menu --> Tours + Teaching + About + Reviews + Gallery + Contacts) + Call-Number + Socials
+    </main>
+
+    Footer --> (Logo --> Logo-Image) + (Menu --> Tours + Teaching + About + Reviews + Gallery + Contacts) + Call-Number + (Socials --> VK + Facebook + Instagram) + Privacy Policy
     <footer>
         <div class="logo">
-            <img src="" alt="" class="logo-image">
+            <img 
+            src="images/logo.svg"
+            width="62"
+            height="62"
+            alt="лого Caucasus" 
+            class="logo-image">           
+            <div class="logo-title">CAUCASUS</div>
+            <div class="logo-subtitle">Организация походов в горы</div>
         </div>
         <div class="menu">
-            <div class="tours"></div>
-            <div class="teaching"></div>
-            <div class="about"></div>
-            <div class="reviews"></div>
-            <div class="gallery"></div>
-            <div class="contacts"></div>
+            <ul class="menu">
+                <li>Туры</li>
+                <li>Обучение</li>
+                <li>О нас</li>
+                <li>Отзывы</li>
+                <li>Фотографии</li>
+                <li>Контакты</li>
+            </ul>
         </div>
-        <div class="call-number"></div>
-        <div class="socials"></div>
+        <div class="call-number">8 800 725 32 32</div>
+        <div class="socials">
+            <ul class="socials-list"> 
+                <li>
+                    <a href="www.vk.com">
+                        <svg>
+                            <use xlink:href="images/icons.svg#vk"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="www.facebook.com">
+                        <svg>
+                            <use xlink:href="images/icons.svg#fb"></use>
+                        </svg> 
+                    </a>
+                </li>
+                <li>
+                    <a href="www.instagram.com">
+                        <svg>
+                            <use xlink:href="images/icons.svg#insta"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="privacy-policy">Политика конфиденциальности</div>
     </footer>
 </body>
 </html>
