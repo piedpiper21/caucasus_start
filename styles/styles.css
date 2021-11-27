@@ -1,1 +1,4 @@
 @import url(../fonts/fonts.css);
+.banner {
+    background-image: url('../images/big-bg.png');
+}
