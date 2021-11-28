@@ -1,4 +1,62 @@
 @import url(../fonts/fonts.css);
-.banner {
+
+.logo-image {
+    background-image: url('../images/logo2.png');
+    position: absolute;
+    left: 0%;
+    right: -0.11%;
+    top: 0%;
+    bottom: -0.11%;
+}
+.logo1 {
+    position: absolute;
+left: 18.41%;
+right: 27.12%;
+top: 38.15%;
+bottom: 35.06%;
+
+background: #FFFFFF;
+}
+
+.top-section {
     background-image: url('../images/big-bg.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 1440;
+    height: 774;
+}
+
+.wrapper {
+max-width: 1195;
+width: 100;
+margin: 0 auto;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33 px 0;
+    color: #FFFFFF;
+}
+
+.logo-title {
+    width: 142;
+    height: 34;
+}
+
+.select-button {
+    background-color: #0266C1;
+    color: #FFFFFF;
+    position: absolute;
+    width: 246px;
+    height: 59px;
+}
+
+.action {
+    background-image: url('..images/forrest.png');
+}
+.menu {
+    display: flex;
+    color: #FFFFFF;
 }
