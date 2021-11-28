@@ -1,29 +1,124 @@
 @import url(../fonts/fonts.css);
 
-.logo-image {
-    background-image: url('../images/logo2.png');
-    position: absolute;
-    left: 0%;
-    right: -0.11%;
-    top: 0%;
-    bottom: -0.11%;
-}
+
+
 .logo1 {
     position: absolute;
 left: 18.41%;
 right: 27.12%;
 top: 38.15%;
 bottom: 35.06%;
-
 background: #FFFFFF;
+}
+
+.menu-title {
+    display: inline;
+}
+
+ .select-button {position: absolute;
+    width: 169px;
+    height: 26px;}
+
+.top-section-socials-list {
+    display: inline;
+    position: absolute;
+width: 98px;
+height: 21.3px;
+left: 1219px;
+top: 625px;
+
+}
+
+.top-logo-title {
+    font-family: Montserrat;
+font-size: 23px;
+font-style: italic;
+font-weight: 800;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 142px;
+height: 34px;
+left: 206px;
+top: 56px;
+}
+
+.top-logo-subtitle {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+width: 123px;
+height: 10px;
+left: 205.9px;
+top: 85.13px;
 }
 
 .top-section {
     background-image: url('../images/big-bg.png');
     background-repeat: no-repeat;
     background-position-x: center;
-    width: 1440;
-    height: 774;
+    background-size:cover;
+    width: 1440px;
+    height: 774px;
+
+}
+.call-number {
+    height: 16px;
+    width: 164px;
+    left: 1155px;
+    top: 68px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 158.86%;
+text-align: right;
+    }
+
+.top-section-title {
+    color: #FFFFFF;
+    height: 55px;
+width: 586px;
+left: 121px;
+top: 291px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 586px;
+height: 55px;
+left: 121px;
+top: 291px;
+
+}
+
+.top-section-sub-title {
+    color: #FFFFFF;
+    font-family: Montserrat;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 468px;
+height: 57px;
+left: 121px;
+top: 367px;
+line-height: 148.6%;
 }
 
 .wrapper {
@@ -38,6 +133,7 @@ margin: 0 auto;
     align-items: center;
     padding: 33 px 0;
     color: #FFFFFF;
+
 }
 
 .logo-title {
@@ -50,13 +146,18 @@ margin: 0 auto;
     color: #FFFFFF;
     position: absolute;
     width: 246px;
-    height: 59px;
+    height: 59px;    
 }
 
 .action {
     background-image: url('..images/forrest.png');
 }
-.menu {
-    display: flex;
-    color: #FFFFFF;
+
+.top-section-socials-list {
+    position: absolute;
+width: 98px;
+height: 21.3px;
+left: 1219px;
+top: 625px;
 }
+
