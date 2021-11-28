@@ -6,28 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caucasus Ханиева Милана</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/normalize.css">    
-<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    Header --> (Logo --> Logo-Image) + (Menu --> Tours + Teaching + About + Reviews + Gallery + Contacts) + Call-Number
-        <header>
+        <header class="top-section">
+            <div class="wrapper">
+            <div class="top-nav">
             <div class="logo">
                 <img 
-                src="images/logo.svg"
-                width="62"
-                height="62"
+                src="images/logo1.png"
+                width="34"
+                height="17"
                 alt="лого Caucasus" 
                 class="logo-image">
-                <div class="logo-title">
-                    <div>CAUCASUS</div>
+                <div class="logo-text">
+                    <div class="logo-title">CAUCASUS</div>
                 </div>
                 <div class="logo-subtitle">Организация походов в горы</div>
             </div>
                 <div class="menu"> 
-                    <ul class="menu">
+                    <ul class="menu-title">
                         <li>Туры</li>
                         <li>Обучение</li>
                         <li>О нас</li>
@@ -37,15 +39,14 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
                     </ul>
                 </div>
                 <div class="call-number">8 800 725 32 32</div>
-        </header>
-
-        <main>
-    Banner --> (Headings --> Main-title + Sub-title + Select-Button) + Socials + Main-Image
-    <section class="banner">
+            </div>
+        
         <div class="headings">
             <div class="main-title">Походы в горы Кавказа</div>
             <div class="sub-title">Профессионально организовываем экскурсии на самые красивые вершины региона</div>
-            <button class="select-button">Выбрать экскурсию</button>
+            <button class="select-button">
+                <span class="select-excursion"> Выбрать экскурсию</span>
+            </button>
         </div>
         <div class="socials">
                 <ul class="socials-list"> 
@@ -74,7 +75,11 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
         </div>
         <img src="" alt="" class="main-image">
     </section>
-    Tours --> (Headings --> Title + Back-Button + Next-Button) + (Elbrus-Tour --> 1-Image + Info) + (Table-Mountain-Tour --> 2-Image + Info) + (Fisht-Mountain-Tour --> 3-Image + Info)
+</div>
+</header>
+
+    <main>
+        <div class="wrapper">
     <section class="tours">
         <div class="headings">
             <div class="title">Ближайшие туры</div>
@@ -92,7 +97,7 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
         <div class="fisht-mountain-tour"></div>
         <img src="" alt="" class="3-image">
     </section>
-    Teaching --> (Headings --> Title + Info) + (All-Instructors --> Title + Back-Button + Next-Button) + ( 1-Instructor --> Photo + Info) + (2-Instructor --> Photo + Info) + (3-Instructor --> Photo + Info) + (4-Instructor--> Photo + Info) + (Process --> Title + Description)
+
     <section class="teching">
         <div class="headings">
             <div class="title">Обучение</div>
@@ -104,36 +109,99 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             <button class="next-button"></button>
         </div>
         <div class="1-instructor">
-            <div class="photo"></div>
+            <div class="photo"> 
+                <img 
+                src="images/1_instructor.png" 
+                width="864"
+                height="574" 
+                alt="1-инструктор" 
+                class="1-instructor"></div>
             <div class="name">Александр Прокофьев</div>
             <div class="info">Любит природу. Строгий, справедливый и внимательный инструктор, веселый и общительный человек.</div>
-            <div class="vk"></div>
+            <div class="vk">
+                <a href="www.vk.com">
+                    <svg>
+                        <use xlink:href="images/icons.svg#vk"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
         <div class="2-instructor">
-            <div class="photo"></div>
+            <div class="photo"> 
+                <img src="images/2_instructor.png" 
+                width="561"
+                height="372"
+                alt="2-инструктор" 
+                class="2-instructor"></div>
             <div class="name">Светлана Афиногенова</div>
             <div class="info">Видеть мир вокруг, познавать его опасности, смотреть сквозь стены, находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.</div>
-            <div class="vk"></div>
+            <div class="vk">
+                <a href="www.vk.com">
+                    <svg>
+                        <use xlink:href="images/icons.svg#vk"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
         <div class="3-instructor">
-            <div class="photo"></div>
+            <div class="photo">
+                <img 
+                src="images/3-instructor.png" 
+                width="362"
+                height="233"
+                alt="3-инструктор">
+            </div>
             <div class="name">Надежда Колесниченко</div>
             <div class="info">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках с ней чувствуешь себя спокойно и уверенно. </div>
-            <div class="vk"></div>
+            <div class="vk">
+                <a href="www.vk.com">
+                    <svg>
+                        <use xlink:href="images/icons.svg#vk"></use>
+                    </svg>
+                </a>
+            </div>
         </div>
         <div class="4-instructor">
-            <div class="photo"></div>
+            <div class="photo">
+                <img src="images/4_instructor.png" 
+                width="578"
+                height="386"
+                alt="4-инструктор">
+            </div>
             <div class="name">Федор Кайгородов</div>
             <div class="info">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины, приэльбрусье, Архыз, много путешествует по Европе.</div>
-            <div class="vk"></div>
+            <div class="vk">
+                <a href="www.vk.com">
+                    <svg>
+                        <use xlink:href="images/icons.svg#vk"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="5-instructor">
+                <div class="photo">
+                    <img src="images/5_instructor.png" 
+                    width="486"
+                    height="324"
+                    alt="5-инструктор">
+                </div>
+                <div class="name">Сергей Денисов</div>
+                <div class="info">Профессиональный гид, путешественник, спортсмен, альпинист. Блестящий рассказчик, собеседник; с ним не скучно.</div>
+            </div>
+            <div class="vk">
+                <a href="www.vk.com">
+                    <svg>
+                        <use xlink:href="images/icons.svg#vk"></use>
+                    </svg>
+                </a>
         </div>
         <div class="process">
             <div class="title">Процесс обучения</div>
             <div class="description">
                 <ul class="description">
                     <li> <svg width="25" height="25"> 
-                        <use xlink:href="images/icons.svg#map"></use></svg> 
-                        Изучение спортивного туристского движения
+                        <use xlink:href="images/icons.svg#map"></use>
+                    </svg> 
+                    Изучение спортивного туристского движения
                     </li>
                     <li> <svg width="24" height="22">
                         <use xlink:href="images/icons.svg#skate"></use>
@@ -152,10 +220,14 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             </div>
         </div>
     </section>
-    About --> Main-Title + Mountain-Image + (Info --> 1-Title + 1-Description + 2-Title + 2-Description)
+
     <section class="about">
         <div class="main-title">О нас</div>
-        <img src="" alt="" class="mountain-image">
+        <img src="images/about_hikers.png" 
+        width="1071"
+        height="877" 
+        alt="поход" 
+        class="mountain-image">
         <div class="info">
             <div class="1-title">История компании</div>
             <div class="1-description">
@@ -166,7 +238,7 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
                 Подарить вам незабываемые впечатления от похода в горы. Мы берем на себя все организационные вопросы. При организации мы обязательно учтем все ваши пожелания. Вам остенется только наслаждаться незабываемым приключеним.</div>
         </div>
     </section>
-    Reviews --> (Headings --> Title + Back-Button + Next-Button) + (1-Reviw --> Photo + Title + Sub-title + Text) + (2-Review --> Photo + Title + Sub-title + Text) + (3-Review --> Photo + Title + Sub-title + Text)
+
     <section class="reviews">
         <div class="headings">
             <div class="title">Отзывы</div>
@@ -174,25 +246,41 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             <button class="next-button"></button>
         </div>
         <div class="1-review">
-            <div class="photo"></div>
-            <div class="title"></div>
-            <div class="sub-title"></div>
+            <div class="photo"> <img src="images/1_review.png" 
+                width="313"
+                height="218"
+                alt="1-отзыв" 
+                class="1-review">
+            </div>
+            <div class="title">Фролов Александр</div>
+            <div class="sub-title">28 лет, Москва</div>
             <div class="text"></div>
         </div>
         <div class="2-review">
-            <div class="photo"></div>
-            <div class="title"></div>
-            <div class="sub-title"></div>
+            <div class="photo"> 
+                <img src="images/2_review.png" 
+                width="225"
+                height="176"
+                alt="2-отзыв" 
+                class="2-review"></div>
+            <div class="title">Светлана Олейник</div>
+            <div class="sub-title">25 лет, Владивосток</div>
             <div class="text"></div>
         </div>
         <div class="3-review">
-            <div class="photo"></div>
-            <div class="title"></div>
-            <div class="sub-title"></div>
+            <div class="photo"> 
+                <img src="images/3-review.png" 
+                width="449"
+                height="311"
+                alt="3-отзыв" 
+                class="3-review">
+            </div>
+            <div class="title">Евгения Баженова</div>
+            <div class="sub-title">23 года, Кастрома</div>
             <div class="text"></div>
         </div>
     </section>
-    Gallery --> (Headings --> Title + Sub-title + Back-Button + Next-Button) + Climber-Image + Bonfire-Image + Compass-Image + Hiking-Image + Winter-Image + Tent-Image + Men-Image
+
     <section class="gallery">
         <div class="headings">
             <div class="title">Фотогалерея</div>
@@ -201,15 +289,15 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             <button class="back-button"></button>
             <button class="next-button"></button>
         </div>
-        <img src="" alt="" class="climber-image">
-        <img src="" alt="" class="bonfire-image">
-        <img src="" alt="" class="compass-image">
-        <img src="" alt="" class="hiking-image">
-        <img src="" alt="" class="winter-image">
-        <img src="" alt="" class="tent-image">
-        <img src="" alt="" class="men-image">
+        <img src="images/climber.png" width="675" height="450" alt="альпенист" class="climber-image">
+        <img src="images/bonfire.png" width="329" height="447" alt="костер" class="bonfire-image">
+        <img src="images/compass.png" width="418" height="465" alt="компас" class="compass-image">
+        <img src="images/hiking.png" width="277" height="459" alt="поход" class="hiking-image">
+        <img src="images/winter.png" width="336" height="224" alt="зима" class="winter-image">
+        <img src="images/tent.png" width="423" height="282" alt="палатка" class="tent-image">
+        <img src="images/men.png" width="672" height="448" alt="мужчины" class="men-image">
     </section> 
-    Feedback --> Forrest-Image + (Form --> Title + Sub-title + 2 Inputs + Send-Button) 
+
     <section class="feedback">
         <img src="" alt="" class="forrest-image">
         <form action="">
@@ -220,22 +308,25 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             <button class="send-button">Отправить</button>
         </form>
     </section>
+    </div>
     </main>
 
-    Footer --> (Logo --> Logo-Image) + (Menu --> Tours + Teaching + About + Reviews + Gallery + Contacts) + Call-Number + (Socials --> VK + Facebook + Instagram) + Privacy Policy
     <footer>
+        <div class="wrapper">
         <div class="logo">
             <img 
             src="images/logo.svg"
             width="62"
             height="62"
             alt="лого Caucasus" 
-            class="logo-image">           
+            class="logo-image">  
+            <div class="logo-text">         
             <div class="logo-title">CAUCASUS</div>
             <div class="logo-subtitle">Организация походов в горы</div>
+            </div>
         </div>
         <div class="menu">
-            <ul class="menu">
+            <ul class="menu-title">
                 <li>Туры</li>
                 <li>Обучение</li>
                 <li>О нас</li>
@@ -271,6 +362,7 @@ family=Montserrat:wght@400;800&Montserrat:wght@100&display=swap" rel="stylesheet
             </ul>
         </div>
         <div class="privacy-policy">Политика конфиденциальности</div>
+    </div>
     </footer>
 </body>
 </html>
