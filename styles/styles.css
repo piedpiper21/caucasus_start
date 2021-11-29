@@ -1,9 +1,6 @@
 @import url(../fonts/fonts.css);
 
-
-
 .logo1 {
-    position: absolute;
 left: 18.41%;
 right: 27.12%;
 top: 38.15%;
@@ -11,22 +8,17 @@ bottom: 35.06%;
 background: #FFFFFF;
 }
 
-.menu-title {
-    display: inline;
-}
-
- .select-button {position: absolute;
+ .select-button {
     width: 169px;
     height: 26px;}
 
 .top-section-socials-list {
-    display: inline;
     position: absolute;
+    display: flex;
 width: 98px;
 height: 21.3px;
 left: 1219px;
 top: 625px;
-
 }
 
 .top-logo-title {
@@ -37,7 +29,6 @@ font-weight: 800;
 line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
-position: absolute;
 width: 142px;
 height: 34px;
 left: 206px;
@@ -52,7 +43,6 @@ top: 56px;
     line-height: 10px;
     letter-spacing: 0em;
     text-align: left;
-    position: absolute;
 width: 123px;
 height: 10px;
 left: 205.9px;
