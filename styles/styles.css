@@ -122,8 +122,8 @@ line-height: 148.6%;
 }
 
 .wrapper {
-max-width: 1195;
-width: 100;
+max-width: 1195px;
+top: 31px;
 margin: 0 auto;
 }
 
@@ -133,6 +133,7 @@ margin: 0 auto;
     align-items: center;
     padding: 33 px 0;
     color: #FFFFFF;
+    top: 232px;
 
 }
 
@@ -144,9 +145,8 @@ margin: 0 auto;
 .select-button {
     background-color: #0266C1;
     color: #FFFFFF;
-    position: absolute;
     width: 246px;
-    height: 59px;    
+    height: 59px; 
 }
 
 .action {
@@ -154,10 +154,14 @@ margin: 0 auto;
 }
 
 .top-section-socials-list {
-    position: absolute;
 width: 98px;
 height: 21.3px;
 left: 1219px;
 top: 625px;
 }
+
+.menu-title {
+    display: flex;
+}
+
 
