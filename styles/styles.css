@@ -1,39 +1,35 @@
 @import url(../fonts/fonts.css);
 
 .logo1 {
-left: 18.41%;
-right: 27.12%;
-top: 38.15%;
-bottom: 35.06%;
-background: #FFFFFF;
+    left: 18.41%;
+    right: 27.12%;
+    top: 38.15%;
+    bottom: 35.06%;
+    background: #FFFFFF;
 }
 
- .select-button {
+.select-button {
     width: 169px;
     height: 26px;}
 
 .top-section-socials-list {
-    position: absolute;
     display: flex;
-width: 98px;
-height: 21.3px;
-left: 1219px;
-top: 625px;
+    justify-content: space-between;
 }
 
 .top-logo-title {
     font-family: Montserrat;
-font-size: 23px;
-font-style: italic;
-font-weight: 800;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-width: 142px;
-height: 34px;
-left: 206px;
-top: 56px;
-}
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 142px;
+    height: 34px;
+    left: 206px;
+    top: 56px;
+    }
 
 .top-logo-subtitle {
     font-family: Montserrat;
@@ -43,10 +39,10 @@ top: 56px;
     line-height: 10px;
     letter-spacing: 0em;
     text-align: left;
-width: 123px;
-height: 10px;
-left: 205.9px;
-top: 85.13px;
+    width: 123px;
+    height: 10px;
+    left: 205.9px;
+    top: 85.13px;
 }
 
 .top-section {
@@ -56,8 +52,17 @@ top: 85.13px;
     background-size:cover;
     width: 1440px;
     height: 774px;
-
+    position: relative;
 }
+
+.socials-1 {
+    position: absolute;
+    width: 98px;
+    height: 21.3px;
+    left: 1219px;
+    top: 625px;
+}
+
 .call-number {
     height: 16px;
     width: 164px;
@@ -65,76 +70,74 @@ top: 85.13px;
     top: 68px;
     border-radius: nullpx;
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 19px;
-line-height: 158.86%;
-text-align: right;
-    }
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 158.86%;
+    text-align: right;}
 
 .top-section-title {
     color: #FFFFFF;
     height: 55px;
-width: 586px;
-left: 121px;
-top: 291px;
-border-radius: nullpx;
-font-family: Montserrat;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: 55px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-width: 586px;
-height: 55px;
-left: 121px;
-top: 291px;
-
+    width: 586px;
+    left: 121px;
+    top: 291px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 586px;
+    height: 55px;
+    left: 121px;
+    top: 291px;
 }
 
 .top-section-sub-title {
     color: #FFFFFF;
     font-family: Montserrat;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-position: absolute;
-width: 468px;
-height: 57px;
-left: 121px;
-top: 367px;
-line-height: 148.6%;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 468px;
+    height: 57px;
+    left: 121px;
+    top: 367px;
+    line-height: 148.6%;
+    padding-top: 21px;
+    padding-bottom: 32px;
 }
 
 .wrapper {
-max-width: 1195px;
-top: 31px;
-margin: 0 auto;
+    max-width: 1195px;
+    top: 31px;
+    margin: 0 auto;
+    margin-left: 122px;
 }
 
 .top-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 33 px 0;
     color: #FFFFFF;
     top: 232px;
+    padding-top: 38px;
 
-}
-
-.logo-title {
-    width: 142;
-    height: 34;
 }
 
 .select-button {
     background-color: #0266C1;
     color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 158.86%;
     width: 246px;
     height: 59px; 
 }
@@ -143,15 +146,36 @@ margin: 0 auto;
     background-image: url('..images/forrest.png');
 }
 
-.top-section-socials-list {
-width: 98px;
-height: 21.3px;
-left: 1219px;
-top: 625px;
+.top-section {
+    position: relative;
+}
+
+.li {
+    padding-left: 45.02px;
+    flex: 0 0 100%;
 }
 
 .menu-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: none;
     display: flex;
+    justify-content: space-between;
 }
 
+.headings-1 {
+    margin-top: 232px;  
+}
 
+.logo {
+    width: 226px;
+    height: 61.87px;
+    left: 122px;
+    top: 42px;
+    padding: 0px;
+    }
