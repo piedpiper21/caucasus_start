@@ -15,6 +15,7 @@
 .top-section-socials-list {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .top-logo-title {
@@ -55,13 +56,14 @@
     position: relative;
 }
 
-.socials-1 {
+.socials-1 li svg {
     position: absolute;
-    width: 98px;
-    height: 21.3px;
-    left: 1219px;
-    top: 625px;
+    width: 21px;
+    height: 21px;
+    bottom: 132px;
+    right: 127px;
 }
+
 
 .call-number {
     height: 16px;
@@ -115,9 +117,11 @@
 
 .wrapper {
     max-width: 1195px;
-    top: 31px;
     margin: 0 auto;
-    margin-left: 122px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 122px;
+    padding-right: 123px;
 }
 
 .top-nav {
@@ -125,9 +129,31 @@
     justify-content:space-between;
     align-items: center;
     color: #FFFFFF;
-    top: 232px;
     padding-top: 38px;
+}
 
+.tours {
+    padding-right: 45.02px; 
+}
+
+.education {
+    padding-right: 45.02px; 
+}
+
+.company {
+    padding-right: 45.02px; 
+}
+
+.comments {
+    padding-right: 45.02px; 
+}
+
+.galery {
+    padding-right: 45.02px; 
+}
+
+.contacts {
+    padding-right: 45.02px; 
 }
 
 .select-button {
