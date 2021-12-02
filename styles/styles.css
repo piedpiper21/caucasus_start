@@ -51,19 +51,19 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-size:cover;
-    width: 1440px;
-    height: 774px;
     position: relative;
 }
 
-.socials-1 li svg {
+.socials-1 {
     position: absolute;
+    right: 17px;
+    bottom: 10px;
+}
+.socials-1 li svg {
     width: 21px;
     height: 21px;
-    bottom: 132px;
-    right: 127px;
+    margin-right: 17px;
 }
-
 
 .call-number {
     height: 16px;
@@ -76,7 +76,8 @@
     font-weight: bold;
     font-size: 19px;
     line-height: 158.86%;
-    text-align: right;}
+    text-align: right;
+}
 
 .top-section-title {
     color: #FFFFFF;
@@ -118,10 +119,6 @@
 .wrapper {
     max-width: 1195px;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 122px;
-    padding-right: 123px;
 }
 
 .top-nav {
@@ -132,28 +129,8 @@
     padding-top: 38px;
 }
 
-.tours {
-    padding-right: 45.02px; 
-}
-
-.education {
-    padding-right: 45.02px; 
-}
-
-.company {
-    padding-right: 45.02px; 
-}
-
-.comments {
-    padding-right: 45.02px; 
-}
-
-.galery {
-    padding-right: 45.02px; 
-}
-
-.contacts {
-    padding-right: 45.02px; 
+.menu-title li {
+    padding-left: 42px;
 }
 
 .select-button {
@@ -205,3 +182,55 @@
     top: 42px;
     padding: 0px;
     }
+
+
+.elbrus-image {
+    background-image: url('..images/elbrus.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tours-title {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tours-headings {
+    display: flex;
+}
+
+.section-title {
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.tours-info {
+    display: flex;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: black;
+}
+
+.socials-2 {
+    position: absolute;
+    display: flex;
+}
+.socials-list-2 li svg {
+    width: 21px;
+    height: 21px;
+    margin-right: 23px;
+}

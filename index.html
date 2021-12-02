@@ -31,7 +31,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
                         <li class="company">О нас</li>
                         <li class="comments">Отзывы</li>
                         <li class="gallery">Фотографии</li>
-                        <li class="contacts"> Контакты</li>
+                        <li class="contacts">Контакты</li>
                     </ul>
                 </div>
                 <div class="call-number">8 800 725 32 32</div>
@@ -81,26 +81,45 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
     <main>
         <div class="wrapper">
     <section class="tours">
-        <div class="headings">
-            <div class="title">Ближайшие туры</div>
-            <button class="back-button"> </button>
-            <button class="next-button"></button>
+        <div class="tours-headings">
+            <div class="section-title">Ближайшие туры</div>
+            <button class="back-button"> 
+                <svg>
+                    <use xlink:href="images/icons.svg#back-button"></use>
+                </svg>
+            </button>
+            <button class="next-button">
+                <svg>
+                    <use xlink:href="images/icons.svg#next-button"> </use>
+                </svg>
+            </button>
         </div>
+        <div class="tours-info"></div>
         <div class="elbrus-tour"> 
-            <img src="" alt="" class="1-image">
-            <div class="info"></div>
+            <div class="elbrus-image">
+                
+            </div>
+            <div class="info-1">
+                <div class="tour-title">Путешествие вокруг Эльбруса</div>
+
+            </div>
         </div>
         <div class="table-mountain-tour">
             <img src="" alt="" class="2-image">
-            <div class="info"></div>
+            <div class="info-2">
+                <div class="tour-title">Восхождение на гору Столовая</div>
+            </div>
         </div>
         <div class="fisht-mountain-tour"></div>
-        <img src="" alt="" class="3-image">
+            <img src="" alt="" class="3-image">
+            <div class="info-3">
+                <div class="tour-title">Через Фишт к Черному морю</div>
+            </div>
     </section>
 
     <section class="teching">
         <div class="headings">
-            <div class="title">Обучение</div>
+            <div class="section-title">Обучение</div>
             <div class="info">Обучение проводится квалифицированными специалистами, за плечами которых десятки пройденных маршрутов Кавказа, Крыма, Гималаев, Эльбруса, Алтая, Карелии, Адыгеи и других.</div>
         </div>
         <div class="all-instructors"> 
@@ -195,7 +214,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
                 </a>
         </div>
         <div class="process">
-            <div class="title">Процесс обучения</div>
+            <div class="section-title">Процесс обучения</div>
             <div class="description">
                 <ul class="description">
                     <li> <svg width="25" height="25"> 
@@ -222,7 +241,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
     </section>
 
     <section class="about">
-        <div class="main-title">О нас</div>
+        <div class="section-title">О нас</div>
         <img src="images/about_hikers.png" 
         width="1071"
         height="877" 
@@ -241,7 +260,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
 
     <section class="reviews">
         <div class="headings">
-            <div class="title">Отзывы</div>
+            <div class="section-title">Отзывы</div>
             <button class="back-button"></button>
             <button class="next-button"></button>
         </div>
@@ -283,7 +302,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
 
     <section class="gallery">
         <div class="headings">
-            <div class="title">Фотогалерея</div>
+            <div class="section-title">Фотогалерея</div>
             <div class="sub-title">Добавляйте фото в Instagram с хэштегом #кавказтур, а также отмечайте нас на фото.
             Лучшие фотографии украсят этот раздел нашего сайта.</div>
             <button class="back-button"></button>
@@ -301,7 +320,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
     <section class="feedback">
         <img src="" alt="" class="forrest-image">
         <form action="">
-            <div class="title">Остались вопросы?</div>
+            <div class="section-title">Остались вопросы?</div>
             <div class="sub-title">Заполните форму и наш оператор свяжется с вами для консультации.</div>
             <input type="text">Как к вам обращаться?
             <input type="text">Телефон
@@ -313,18 +332,13 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
 
     <footer>
         <div class="wrapper">
-        <div class="logo">
-            <img 
-            src="images/logo.svg"
-            width="62"
-            height="62"
-            alt="лого Caucasus" 
-            class="logo-image">  
-            <div class="logo-text">         
-            <div class="logo-title">CAUCASUS</div>
-            <div class="logo-subtitle">Организация походов в горы</div>
+            <div class="bottom-nav">
+        <div class="logo-2">
+           <svg>
+               <use xlink:href='..images/icons.svg#logo-2'></use>
+           </svg> 
             </div>
-        </div>
+        
         <div class="menu">
             <ul class="menu-title">
                 <li>Туры</li>
@@ -336,8 +350,8 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
             </ul>
         </div>
         <div class="call-number">8 800 725 32 32</div>
-        <div class="socials">
-            <ul class="socials-list"> 
+        <div class="socials-2">
+            <ul class="socials-list-2"> 
                 <li>
                     <a href="www.vk.com">
                         <svg>
@@ -362,7 +376,8 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
             </ul>
         </div>
         <div class="privacy-policy">Политика конфиденциальности</div>
-    </div>
+        </div>
+        </div>
     </footer>
 </body>
 </html>
