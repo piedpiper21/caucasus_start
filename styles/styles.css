@@ -135,17 +135,13 @@
 }
 
 .action {
-    background-image: url('..images/forrest.png');
+    background-image: url('../images/forrest.png');
 }
 
 .top-section {
     position: relative;
 }
 
-.li {
-    padding-left: 45.02px;
-    flex: 0 0 100%;
-}
 
 .menu-title {
     font-family: Montserrat;
@@ -174,21 +170,16 @@
     }
 
 
-.elbrus-image {
-    background-image: url('..images/elbrus.png');
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-.tours-title {
+.tour-title {
     font-family: Montserrat;
-    font-size: 35px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 800;
-    line-height: 43px;
+    font-weight: 700;
+    line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
-}
+    color:#FFFFFF;}
+
 
 .tours-headings {
     display: flex;
@@ -202,10 +193,6 @@ font-weight: 700;
 line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
-}
-
-.tours-info {
-    display: flex;
 }
 
 .bottom-nav {
@@ -223,4 +210,44 @@ text-align: left;
     width: 21px;
     height: 21px;
     margin-right: 23px;
+}
+
+.tours-info {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.elbrus-tour {
+    background-image: url('../images/elbrus.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+.table-mount-tour {
+    background-image: url('../images/tablemount.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    
+  
+}
+
+.fisht-mount-tour {
+    background-image: url('../images/fisht.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+     
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
 }
