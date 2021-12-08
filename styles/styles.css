@@ -249,6 +249,7 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
     }
@@ -464,13 +465,6 @@
     color: #FFFFFF;
 }
 
-.back-button {
-    padding-left: 785px;
-}
-
-.next-button {
-    padding-left: 4px;
-}
 
 .teach-info {
     font-family: Montserrat;
@@ -522,4 +516,35 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.vk {
+    width: 29px;
+    height: 29px;
+}
+
+.back-button {
+    width: 37px;
+    height: 35px;
+    padding-left: 4px;
+}
+
+.next-button {
+    width: 37px;
+    height: 35px;
+}
+
+.sun {
+    width: 21px;
+    height: 22px;
+}
+
+.moon {
+    width: 20px;
+    height: 19px;
+}
+
+.location {
+    width: 9px;
+    height: 12px;
 }
