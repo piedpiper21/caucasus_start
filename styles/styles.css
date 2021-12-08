@@ -66,7 +66,6 @@
 }
 
 .call-number {
-    
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -129,13 +128,48 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 158.86%;
     width: 246px;
     height: 59px; 
 }
 
-.action {
-    background-image: url('../images/forrest.png');
+.feedback {
+    background-image: url('../images/forrest-bg.png');
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    width: 100%;
+    padding-bottom: 337px;
+
+}
+
+.feedback-title {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 43px;
+    width: 385px;
+    padding-top: 365px;
+    padding-left: 412px;
+    color: #FFFFFF;
+}
+
+.feedback-subtitle {
+    height: 24px;
+    width: 586px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 307px;
+    padding-top: 9px;
+    padding-bottom: 44px;
 }
 
 .top-section {
@@ -183,6 +217,7 @@
 
 .tours-headings {
     display: flex;
+    justify-content: space-between;
 }
 
 .section-title {
@@ -199,7 +234,7 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    color: black;
+    color: #2D383F;
 }
 
 .socials-list-2 {
@@ -220,24 +255,20 @@
 
 .elbrus-tour {
     background-image: url('../images/elbrus.png');
-    background-position: left;
     background-repeat: no-repeat;
-    background-size: auto auto;
+    
 }
 
 .table-mountain-tour {
     background-image: url('../images/tablemount.png');
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto auto;
+    padding-left: 20px;   
 }
 
 .fisht-mountain-tour {
     background-image: url('../images/fisht.png');
-    background-position: right;
     background-repeat: no-repeat;
-    background-size: auto auto;
-     
+    padding-left: 20px;   
 }
 
 .first-line {
@@ -248,6 +279,28 @@
     padding: 0;  
 }
 
+.show-all {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #2D383F;
+    padding-top: 70px;
+    padding-left: 489px;
+    width: 199px;
+    height: 20px;
+
+    border: 0;
+    margin: 0;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+
 .instructors-title {
     font-family: Montserrat;
     font-size: 21px;
@@ -256,6 +309,7 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 38px;
 }
 
 .instructors {
@@ -266,6 +320,25 @@
     padding: 0;   
 }
 
+.title-buttons {
+    display: flex;
+}
+
+.instructor-info {
+    height: 69px;
+    width: 202px;
+    left: 379px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 8px;
+}
+
 .name {
     font-family: Montserrat;
     font-size: 14px;
@@ -274,6 +347,19 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    padding-right: 90px;
+}
+
+.name-vk {
+    display: flex;
+}
+
+.instructor-2 {
+    padding-left: 8px;
+}
+
+.points {
+    padding-top: 13px;
 }
 
 .process-title {
@@ -294,8 +380,13 @@
     padding: 0;    
 }
 
-.info {
-    padding-left: 986;
+.information {
+    padding-left: 986px;
+}
+
+.about {
+    background-image: url('../images/about_hikers.png');
+    background-repeat: no-repeat;
 }
 
 .about-title {
@@ -306,6 +397,7 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 50px;
 }
 
 .description {
@@ -316,37 +408,113 @@
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
+    width: 547px;
+    height:128px;
+    padding-top: 20px;
+    padding-right: 419px;
 }
 
-.three-reviews {
+.photogallery {
+    padding-top: 156px;
+}
+
+.info-buttons {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
-
-.text {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.below.name {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
 .hashtag-info {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 48px;
+    width: 710px;
+    left: 133px;
+    top: 3156px;
+    border-radius: nullpx;
+    padding-top: 19px;
+
+}
+
+.privacy-policy {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D383F;
+    padding-left: 497px;
+}
+
+.send-button {
+    width: 246px;
+    height: 64px;
+    background: #0266C1;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.back-button {
+    padding-left: 785px;
+}
+
+.next-button {
+    padding-left: 4px;
+}
+
+.teach-info {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 29px;
+
+    height: 69px;
+    width: 826px;
+    left: 124px;
+    top: 1609px;
+    border-radius: nullpx;
+
+}
+
+.feedback-form {
+    padding-top: 44px;
+    padding-left: 108px;
+
+}
+
+.appeal {
+    height: 64px;
+    width: 354px;
+    background-color: #FFFFFF;
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.number {
+    height: 64px;
+    width: 354px;
+    background-color: #FFFFFF;
+    color: #B0B0B0;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
