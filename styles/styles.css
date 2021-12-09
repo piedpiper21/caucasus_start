@@ -243,6 +243,26 @@
     list-style: none;
     margin: 0;
     padding: 0;  
+    padding-top: 35px;
+    padding-bottom: 33px;
+}
+
+.fb {
+    width: 30px;
+    height: 29px;
+    padding-right: 23px;
+}
+
+.insta {
+    width: 30px;
+    height: 29px;
+}
+
+.vk-bottom {
+    width: 30px;
+    height: 29px;
+    padding-left: 502px;
+    padding-right: 23px;
 }
 
 .tours-info {
@@ -290,10 +310,8 @@
     text-align: left;
     text-transform: uppercase;
     color: #2D383F;
-    padding-top: 70px;
     padding-left: 489px;
-    width: 199px;
-    height: 20px;
+    padding-bottom: 106px;
 
     border: 0;
     margin: 0;
@@ -318,45 +336,16 @@
     justify-content: space-between;
     list-style: none;
     margin: 0;
-    padding: 0;   
+    padding: 0; 
+    padding-top: 33px;  
 }
 
 .title-buttons {
     display: flex;
 }
 
-.instructor-info {
-    height: 69px;
-    width: 202px;
-    left: 379px;
-    border-radius: nullpx;
-    font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 8px;
-}
-
-.name {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-right: 90px;
-}
-
 .name-vk {
     display: flex;
-}
-
-.instructor-2 {
-    padding-left: 8px;
 }
 
 .points {
@@ -371,6 +360,8 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 56px;
+    padding-bottom: 38px;
 }
 
 .process-description {
@@ -382,7 +373,7 @@
 }
 
 .information {
-    padding-left: 986px;
+    padding-left: 700px;
 }
 
 .about {
@@ -410,7 +401,7 @@
     letter-spacing: 0em;
     text-align: left;
     width: 547px;
-    height:128px;
+    height: 128px;
     padding-top: 20px;
     padding-right: 419px;
 }
@@ -436,6 +427,8 @@
     top: 3156px;
     border-radius: nullpx;
     padding-top: 19px;
+    padding-right: 407px;
+    padding-bottom: 45px;
 
 }
 
@@ -526,12 +519,12 @@
 .back-button {
     width: 37px;
     height: 35px;
-    padding-left: 4px;
 }
 
 .next-button {
     width: 37px;
     height: 35px;
+    padding-left: 4px;
 }
 
 .sun {
@@ -548,3 +541,171 @@
     width: 9px;
     height: 12px;
 }
+
+.alltours-title {
+    padding-top: 206px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.tours {
+    background-image: url('../images/clouds.png');
+    background-repeat: no-repeat;
+}
+
+.buttons-1 {
+    padding-top: 239px;
+    padding-left: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-2 {
+    padding-left: 894px;
+    display: flex;
+}
+
+.name-1 {
+    height: 57px;
+    width: 87px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 88px;
+}
+
+.name-2 {
+    width: 104px;
+    height: 38px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 133.98%;
+    padding-right: 72px;
+}
+
+.name-3 {
+    width: 111px;
+    height: 38px;
+    left: 617.78px;
+    top: 2023px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 133.98%;
+    padding-right: 64px;
+}
+
+.name-4 {
+    width: 91px;
+    height: 38px;
+    left: 856.67px;
+    top: 2023px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 133.98%;
+    padding-right: 85px;
+}
+
+.name-5 {
+    width: 67px;
+    height: 38px;
+    left: 1095.55px;
+    top: 2023px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 133.98%;
+    padding-right: 108px;
+}
+
+.instructor-2 {
+    padding-left: 37px;
+}
+
+.instructor-3 {
+    padding-left: 37px;
+}
+
+.instructor-4 {
+    padding-left: 37px;
+}
+
+.instructor-5v{
+    padding-left: 37px;
+}
+
+.instructor-info-1 {
+    width: 202px;
+    height: 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.67%;
+    padding-top: 8px;
+}
+
+.instructor-info-2 {
+    width: 202px;
+    height: 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.67%;
+    padding-top: 8px;
+}
+
+.instructor-info-3 {
+    width: 202px;
+    height: 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.67%;
+    padding-top: 8px;
+}
+
+.instructor-info-4 {
+    width: 202px;
+    height: 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.67%;
+    padding-top: 8px;
+}
+
+.instructor-info-5 {
+    width: 202px;
+    height: 70px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126.67%;
+    padding-top: 8px;
+}
+
+.climber {
+    padding-top: 45px;
+}
+
