@@ -217,6 +217,7 @@
     height: 49px;
     padding-top: 30px;
     padding-bottom: 44px;
+    padding-left: 20px;
 }
 
 .tour-title-2 {
@@ -232,6 +233,7 @@
     height: 49px;
     padding-top: 30px;
     padding-bottom: 44px;
+    padding-left: 20px;
 }
 
 .tour-title-3 {
@@ -246,7 +248,8 @@
     width: 243px;
     height: 49px;
     padding-top: 30px;
-    padding-bottom: 44px;   
+    padding-bottom: 44px;  
+    padding-left: 20px; 
 }
 
 .tours-headings {
@@ -339,6 +342,7 @@
     margin: 0;
     padding: 0;  
     padding-top: 213px;
+    height: 21px;
 }
 
 .loc-caucasus {
@@ -425,7 +429,6 @@
 
 .instructors {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0; 
@@ -572,7 +575,7 @@
 }
 
 .feedback-form {
-    padding-top: 44px;
+    padding-top: 25px;
     padding-left: 230px;
 
 }
@@ -736,19 +739,20 @@
 }
 
 .instructor-2 {
-    padding-left: 6px;
+    padding-left: 40px;
+    border: 1px solid #FFFFFF
 }
 
 .instructor-3 {
-    padding-left: 6px;
+    padding-left: 40px;
 }
 
 .instructor-4 {
-    padding-left: 6px;
+    padding-left: 40px;
 }
 
 .instructor-5 {
-    padding-left: 6px;
+    padding-left: 40px;
 }
 
 .instructor-info-1 {
@@ -889,4 +893,46 @@
     width: 9px;
     height: 14px;
     padding-left: 20px;
+}
+
+.line {
+    width: 79.01px;
+    height: 1px;
+    padding-left: 20px;
+}
+
+.bottom-line {
+    display: flex;
+    padding-top: 17px;
+    height: 43px;
+}
+
+.difficulty {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.dates {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 48px;
+}
+
+.group {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 48px;
 }
