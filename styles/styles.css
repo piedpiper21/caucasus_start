@@ -151,7 +151,7 @@
     text-align: left;
     height: 43px;
     width: 385px;
-    padding-top: 365px;
+    padding-top: 310px;
     padding-left: 483px;
     color: #FFFFFF;
 }
@@ -475,6 +475,9 @@
 .about {
     background-image: url('../images/about_hikers.png');
     background-repeat: no-repeat;
+    background-position: top -6vw left 0;
+    background-size: 60vw;
+
 }
 
 .about-title {
@@ -821,11 +824,11 @@
     padding-top: 45px;
 }
 
-.process-1 {
+.process-1  {
+    display: flex;
     width: 198px;
     height: 46px;
-    left: 160px;
-    top: 2281px;
+    padding-right: 85px;
     font-family: Montserrat;
     font-weight: 400;
     font-style: normal;
@@ -835,64 +838,62 @@
 }
 
 .process-2 {
+    display: flex;
     width: 225px;
     height: 46px;
-    left: 480px;
-    top: 2281px;
+    padding-right: 85px;
     font-family: Montserrat;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 23px;
     color: #2D383F; 
-    padding-left: 85px;
 }
 
 .process-3 {
+    display: flex;
     width: 180px;
     height: 69px;
-    left: 803px;
-    top: 2281px;
+    padding-right: 85px;
     font-family: Montserrat;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 23px; 
     color: #2D383F;
-    padding-left: 61px;
 }
 
 .process-4 {
+    display: flex;
     width: 202px;
     height: 69px;
-    left: 1137px;
-    top: 2281px;
+    padding-right: 85px;
     font-family: Montserrat;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 142.51%;
     color: #2D383F;
-    padding-left: 117px;
+
 }
 
 .map {
-    width: 25px;
+    width: 68px;
     height: 25px;
 }
 
 .skate {
-    width: 25px;
+    width: 68px;
     height: 25px;
 }
 
 .tree {
-    width: 25px;
+    width: 72px;
     height: 25px;
 }
 
 .mount {
-    width: 25px;
+    width: 72px;
     height: 25px;
 }
 
@@ -967,12 +968,29 @@
     padding-left: 23px;
 } 
 
-.photo {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "climber bonfire hiking winter men"
-    "climber compass hiking tent men";
-    grid-auto-flow: row;
+.points-lines {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+.points {
+    width: 24px;
+    height: 14px;
+    padding-top: 15px;
+}
+
+.lines {
+    width: 311px;
+    height: 2px;
+    padding-top: 15px;
+
+}
+
+.photos {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 450px;
 }

@@ -91,16 +91,12 @@
 <path d="M71.7453 10.6054L71.5 10.4674L71.2547 10.6054L67.6307 12.6453L68.5764 8.85066L68.6535 8.54141L68.4057 8.34098L65.2878 5.81931L69.4332 5.48733L69.7267 5.46382L69.8485 5.19567L71.5 1.55921L73.1515 5.19568L73.2733 5.46382L73.5669 5.48733L77.7122 5.81931L74.5943 8.34098L74.3465 8.54141L74.4236 8.85066L75.3693 12.6453L71.7453 10.6054Z" stroke="white"/>
 </symbol>
 
-<symbol id='points' width="1440" height="15" viewBox="0 0 1440 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line x1="141" y1="7.5" x2="449" y2="7.49997" stroke="#D9E7EA"/>
-<line x1="461" y1="7.5" x2="772" y2="7.49997" stroke="#D9E7EA"/>
-<line x1="784" y1="7.5" x2="1106" y2="7.5" stroke="#D9E7EA"/>
-<line x1="1118" y1="7.5" x2="1479" y2="7.49997" stroke="#D9E7EA"/>
-<line x1="4.37114e-08" y1="7.5" x2="130" y2="7.50001" stroke="#D9E7EA"/>
-<circle cx="136" cy="7" r="7" fill="#0266C1"/>
-<circle cx="455" cy="8" r="7" fill="#0266C1"/>
-<circle cx="778" cy="8" r="7" fill="#0266C1"/>
-<circle cx="1112" cy="8" r="7" fill="#0266C1"/>
+<symbol id='points' width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="7" cy="7" r="7" fill="#0266C1"/>
+</symbol>
+
+<symbol id='lines' width="308" height="1" viewBox="0 0 308 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="-4.37114e-08" y1="0.5" x2="308" y2="0.499973" stroke="#D9E7EA"/>
 </symbol>
 
 <symbol id='arrow' width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg">
