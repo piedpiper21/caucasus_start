@@ -152,7 +152,7 @@
     height: 43px;
     width: 385px;
     padding-top: 365px;
-    padding-left: 412px;
+    padding-left: 483px;
     color: #FFFFFF;
 }
 
@@ -167,7 +167,7 @@
     letter-spacing: 0em;
     text-align: center;
     color: #FFFFFF;
-    padding-left: 307px;
+    padding-left: 384px;
     padding-top: 9px;
     padding-bottom: 44px;
 }
@@ -276,7 +276,6 @@
 
 .socials-list-2 {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;  
@@ -298,7 +297,7 @@
 .vk-bottom {
     width: 30px;
     height: 29px;
-    padding-left: 502px;
+    padding-left: 550px;
     padding-right: 23px;
 }
 
@@ -425,6 +424,7 @@
     letter-spacing: 0em;
     text-align: left;
     padding-top: 38px;
+    width: 222px;
 }
 
 .instructors {
@@ -538,12 +538,12 @@
     letter-spacing: 0em;
     text-align: left;
     color: #2D383F;
-    padding-left: 497px;
+    padding-left: 514px;
 }
 
 .send-button {
     width: 246px;
-    height: 64px;
+    height: 60px;
     background: #0266C1;
     font-family: Montserrat;
     font-size: 16px;
@@ -553,6 +553,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
+    padding-left: 77px;
 }
 
 
@@ -592,7 +593,10 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding-left: 102px;
+    padding-left: 31px;
+    padding-right: 108px;
+    padding-top: 20px;
+    padding-bottom: 17px;
 }
 
 .number {
@@ -607,8 +611,10 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    padding-left: 13px;
-    padding-right: 18px;
+    padding-left: 38px;
+    padding-right: 213px;
+    padding-top: 20px;
+    padding-bottom: 17px;
 }
 
 .vk {
@@ -646,7 +652,7 @@
 }
 
 .alltours-title {
-    padding-top: 206px;
+    padding-top: 220px;
     font-family: Montserrat;
     font-size: 35px;
     font-style: normal;
@@ -654,6 +660,7 @@
     line-height: 43px;
     letter-spacing: 0em;
     text-align: left;
+    width: 345px;
 
 }
 
@@ -892,7 +899,7 @@
 .arrow {
     width: 9px;
     height: 14px;
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 .line {
@@ -935,4 +942,37 @@
     line-height: 15px;
     color: #FFFFFF;
     padding-left: 48px;
+}
+
+.logo-2 {
+    width: 62px;
+    height: 62px;
+    padding-left: 123px;
+}
+
+.vk-bottom svg {
+    width: 29px;
+    height: 29px;
+}
+
+.fb svg {
+    width: 29px;
+    height: 29px;
+    padding-left: 23px;
+}
+
+.insta svg {
+    width: 29px;
+    height: 29px;
+    padding-left: 23px;
+} 
+
+.photo {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "climber bonfire hiking winter men"
+    "climber compass hiking tent men";
+    grid-auto-flow: row;
 }
