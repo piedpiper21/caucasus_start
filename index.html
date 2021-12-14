@@ -79,8 +79,9 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
 </header>
 
     <main>
-        <div class="wrapper">
+    <div class="wrapper">
     <section class="tours">
+        <div class="tours-bg">
         <div class="tours-headings">
             <div class="alltours-title">Ближайшие туры</div>
             <div class="buttons-1">
@@ -100,16 +101,24 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
         <li class="elbrus-tour"> 
             <div class="info-1">
                 <div class="first-line">
-                <svg >
-                    <use xlink:href="images/icons.svg#location"></use>
-                </svg>
-                <div class="caucasus">Кавказ</div>
-                <svg>
+                <div class="geo">
+                    <svg class="location">
+                        <use xlink:href="images/icons.svg#location"></use>
+                    </svg>
+                    <div class="caucasus">Кавказ</div>
+                </div>
+                <div class="days">
+                <svg class="sun">
                     <use xlink:href="images/icons.svg#sun"></use>
                 </svg>
-                <svg>
-                    <use xlink:href="images/icons.svg#moon"></use>
-                </svg>
+                <div class="day-night">4 дня</div>
+                </div>
+                <div class="nights">
+                    <svg class="moon">
+                        <use xlink:href="images/icons.svg#moon"></use>
+                    </svg>
+                    <div class="day-night">3 ночи</div>
+                 </div>
             </div>
                 <div class="tour-title-1">Путешествие вокруг Эльбруса</div>
                 <svg class="line">
@@ -133,16 +142,24 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
         <li class="table-mountain-tour">
             <div class="info-2">
                 <div class="first-line">
-                <svg>
-                    <use xlink:href="images/icons.svg#location"></use>
-                </svg>
-                <div class="ingushetia">Ингушетия</div>
-                <svg>
+                <div class="geo">
+                    <svg>
+                        <use xlink:href="images/icons.svg#location"></use>
+                    </svg>
+                    <div class="ingushetia">Ингушетия</div>
+                </div>
+                <div class="days">
+                <svg class="sun">
                     <use xlink:href="images/icons.svg#sun"></use>
                 </svg>
-                <svg>
+                <div class="day-night">5 дней</div>
+                </div>
+                <div class="nights">
+                <svg class="moon">
                     <use xlink:href="images/icons.svg#moon"></use>
                 </svg>
+                <div class="day-night">4 ночи</div>
+                </div>
                 </div>
                 <div class="tour-title-2">Восхождение на гору Столовая</div>
                 <svg>
@@ -153,18 +170,24 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
         <li class="fisht-mountain-tour">
             <div class="info-3">
                 <div class="first-line">
-                    <div class="loc-caucasus">
-                <svg>
-                    <use xlink:href="images/icons.svg#location"></use>
-                </svg>
-                <div class="adygea">Адыгея</div>
+                 <div class="geo">
+                    <svg>
+                        <use xlink:href="images/icons.svg#location"></use>
+                    </svg>
+                    <div class="adygea">Адыгея</div>
                 </div>
-                <svg>
+                <div class="days">
+                <svg class="sun">
                     <use xlink:href="images/icons.svg#sun"></use>
                 </svg>
-                <svg>
+                <div class="day-night">7 дней</div>
+                </div>
+                <div class="nights">
+                <svg class="moon">
                     <use xlink:href="images/icons.svg#moon"></use>
                 </svg>
+                <div class="day-night">6 ночей</div>
+                </div>
                 </div>
                 <div class="tour-title-3">Через Фишт к Черному морю</div>
                 <svg>
@@ -178,6 +201,7 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=s
                 <use xlink:href="images/icons.svg#arrow"></use>
             </svg>
         </button>
+       </div>
     </section>
 
     <section class="teching">

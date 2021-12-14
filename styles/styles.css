@@ -303,7 +303,6 @@
 
 .tours-info {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     overflow: hidden;
     margin: 0;
@@ -344,8 +343,13 @@
     height: 21px;
 }
 
-.loc-caucasus {
+.geo {
     display: flex;
+    background-color: #0266C1;
+    margin-left: 21px;
+   
+    width: 114px;
+    height: 29px;
 }
 
 .caucasus {
@@ -359,7 +363,6 @@
     width: 114px;
     height: 29px;
     color: blanchedalmond;
-    background-color: #0266C1;
     padding-left: 21px;
 }
 
@@ -409,7 +412,7 @@
     border: 0;
     margin: 0;
     outline: none;
-    background-color: #FFFFFF;
+    background:transparent;
 
     display: flex;
 }
@@ -636,6 +639,24 @@
     padding-left: 4px;
 }
 
+.day-night {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.days {
+    display: flex;
+    padding-left: 28px;
+}
+
+.nights {
+    display: flex;
+    padding-left: 32px;
+}
 .sun {
     width: 21px;
     height: 22px;
@@ -648,11 +669,6 @@
     padding-left: 34px;
 }
 
-.location {
-    width: 9px;
-    height: 12px;
-    padding-left: 43px;
-}
 
 .alltours-title {
     padding-top: 220px;
@@ -667,10 +683,6 @@
 
 }
 
-.tours {
-    background-image: url('../images/clouds.png');
-    background-repeat: no-repeat;
-}
 
 .buttons-1 {
     padding-top: 239px;
@@ -993,4 +1005,15 @@
     margin: 0 auto;
     max-width: 1440px;
     height: 450px;
+}
+
+.location {
+    width: 9px;
+    height: 12px;
+}
+
+.tours-bg {
+    background-image: url('../images/tours-bg.png');
+    background-repeat: no-repeat;
+    background-position: right 0;    
 }
