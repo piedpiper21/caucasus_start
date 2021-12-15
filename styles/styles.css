@@ -332,7 +332,6 @@
 
 .first-line {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;  
@@ -425,8 +424,8 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 38px;
-    width: 222px;
+    padding-top: 35px;
+    width: 250px;
 }
 
 .instructors {
@@ -645,11 +644,13 @@
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
+    padding-top: 4px;
 }
 
 .days {
     display: flex;
     padding-left: 28px;
+
 }
 
 .nights {
@@ -657,15 +658,15 @@
     padding-left: 32px;
 }
 .sun {
-    width: 21px;
+    width: 27px;
     height: 22px;
-    padding-left: 28px;
+    
 }
 
 .moon {
-    width: 20px;
-    height: 19px;
-    padding-left: 34px;
+    width: 26px;
+    height: 21px;
+    
 }
 
 
@@ -692,7 +693,7 @@
 }
 
 .buttons-2 {
-    padding-left: 894px;
+    padding-left: 875px;
     display: flex;
 }
 
@@ -773,7 +774,7 @@
 }
 
 .instructor-5 {
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .instructor-info-1 {
