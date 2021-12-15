@@ -1015,5 +1015,12 @@
 .tours-bg {
     background-image: url('../images/tours-bg.png');
     background-repeat: no-repeat;
-    background-position: right 0;    
+    background-position: right 0;  
+     
+}
+
+.item-2-3 {
+    display: flexbox;
+    margin: 0;
+    
 }
