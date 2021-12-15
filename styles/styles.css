@@ -216,7 +216,6 @@
     width: 243px;
     height: 49px;
     padding-top: 30px;
-    padding-bottom: 44px;
     padding-left: 20px;
 }
 
@@ -232,7 +231,6 @@
     width: 243px;
     height: 49px;
     padding-top: 30px;
-    padding-bottom: 44px;
     padding-left: 20px;
 }
 
@@ -247,8 +245,7 @@
     color: #FFFFFF;
     width: 243px;
     height: 49px;
-    padding-top: 30px;
-    padding-bottom: 44px;  
+    padding-top: 30px; 
     padding-left: 20px; 
 }
 
@@ -347,6 +344,7 @@
     display: flex;
     background-color: #0266C1;
     margin-left: 21px;
+    padding-top: 6px;
    
     width: 114px;
     height: 29px;
@@ -363,7 +361,7 @@
     width: 114px;
     height: 29px;
     color: blanchedalmond;
-    padding-left: 21px;
+    padding-left: 5px;
 }
 
 .ingushetia {
@@ -378,7 +376,7 @@
     height: 29px;
     color: blanchedalmond;
     background-color: #0266C1;
-    padding-left: 21px;
+    padding-left: 5px;
 }
 
 .adygea {
@@ -393,6 +391,7 @@
     background-color: #0266C1;
     width: 114px;
     height: 29px;
+    padding-left: 5px;
 }
 
 .show-all {
@@ -919,6 +918,7 @@
     width: 79.01px;
     height: 1px;
     padding-left: 20px;
+    padding-top: 26px;
 }
 
 .bottom-line {
@@ -934,9 +934,12 @@
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    padding-left: 20px;
 }
 
+.dif-stars {
+    flex-direction: column;
+    padding-left: 20px;
+}
 .dates {
     font-family: Montserrat;
     font-style: normal;
@@ -944,7 +947,20 @@
     font-size: 12px;
     line-height: 15px;
     color: #FFFFFF;
-    padding-left: 48px;
+    padding-left: 52px;
+}
+
+.date {
+    width: 77px;
+    height: 21px;
+    left: 264.2px;
+    top: 1310px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 158.86%;
 }
 
 .group {
@@ -956,6 +972,21 @@
     color: #FFFFFF;
     padding-left: 48px;
 }
+
+.amount {
+    width: 72px;
+    height: 21px;
+    left: 395.55px;
+    top: 1310px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 158.86%;
+}
+
+
 
 .logo-2 {
     width: 62px;
@@ -1002,14 +1033,16 @@
 
 .photos {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     max-width: 1440px;
     height: 450px;
 }
 
 .location {
-    width: 9px;
-    height: 12px;
+    width: 12px;
+    height: 14px;
+    padding-left: 15px;
 }
 
 .tours-bg {
@@ -1022,5 +1055,10 @@
 .item-2-3 {
     display: flexbox;
     margin: 0;
-    
+
+}
+
+.elbrus-stars {
+    width: 79px;
+    height: 14px;
 }
