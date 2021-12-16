@@ -10,7 +10,9 @@
 
 .select-button {
     width: 169px;
-    height: 26px;}
+    height: 26px;
+    border: none;
+}
 
 .top-section-socials-list {
     display: flex;
@@ -135,7 +137,6 @@
 .feedback {
     background-image: url('../images/forrest-bg.png');
     background-repeat: no-repeat;
-    max-width: 1440px;
     width: 100%;
     padding-bottom: 337px;
 
@@ -358,7 +359,6 @@
     letter-spacing: 0em;
     text-align: left;
     width: 114px;
-    height: 29px;
     color: blanchedalmond;
     padding-left: 5px;
 }
@@ -372,7 +372,6 @@
     letter-spacing: 0em;
     text-align: left;
     width: 114px;
-    height: 29px;
     color: blanchedalmond;
     background-color: #0266C1;
     padding-left: 5px;
@@ -389,7 +388,6 @@
     color: blanchedalmond;
     background-color: #0266C1;
     width: 114px;
-    height: 29px;
     padding-left: 5px;
 }
 
@@ -558,6 +556,7 @@
     text-align: left;
     color: #FFFFFF;
     padding-left: 77px;
+    border: none;
 }
 
 
@@ -836,6 +835,11 @@
     padding-top: 45px;
 }
 
+.text-1 {
+    width: 198px;
+    height: 46px;
+}
+
 .process-1  {
     display: flex;
     width: 198px;
@@ -1047,15 +1051,20 @@
 }
 
 .tours-bg {
+    position: absolute;
+    width: 1859px;
+    height: 1240px;
     background-image: url('../images/tours-bg.png');
-    background-repeat: no-repeat;
-    background-position: right 0;  
-     
+    background-repeat: no-repeat;  
+    background-position-x: 700px;
+    background-position-y: 145px;
 }
 
-.item-2-3 {
+.two-rows-photo {
     display: flexbox;
     margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
 
 }
 
