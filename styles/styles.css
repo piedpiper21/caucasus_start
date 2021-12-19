@@ -1050,16 +1050,6 @@
     padding-left: 15px;
 }
 
-.tours-bg {
-    position: absolute;
-    width: 1859px;
-    height: 1240px;
-    background-image: url('../images/tours-bg.png');
-    background-repeat: no-repeat;  
-    background-position-x: 700px;
-    background-position-y: 145px;
-}
-
 .two-rows-photo {
     display: flexbox;
     margin: 0;
@@ -1071,4 +1061,8 @@
 .elbrus-stars {
     width: 79px;
     height: 14px;
+}
+
+.logo-footer {
+    padding-left: 80px;
 }
